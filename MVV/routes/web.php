@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/psb-pln', function () {
+    return view('pdf/psb_pln_site');
+});
